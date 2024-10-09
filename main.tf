@@ -12,6 +12,7 @@ terraform {
     storage_account_name = "tfstate85581740"
     container_name       = "tfstate2"
     key                  = "terraform.tfstate"
+    subscription_id      = var.subscription_id
     use_oidc             = true
   }
 }
